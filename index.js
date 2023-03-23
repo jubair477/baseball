@@ -1,5 +1,5 @@
 let homeScore = parseInt(document.getElementById("home").innerHTML)
-let guestScore = parseInt(document.getElementById("guest").innerHTML)
+let guestScore = parseInt(document.getElementById("away").innerHTML)
 
 
 function hOne(){
@@ -16,13 +16,13 @@ function hThree(){
 }
 function gOne(){
     a = guestScore += 1
-    document.getElementById("guest").innerHTML = a
+    document.getElementById("away").innerHTML = a
 }
 function gTwo(){
     a = guestScore += 2
-    document.getElementById("guest").innerHTML = a
+    document.getElementById("away").innerHTML = a
 }
 function gThree(){
     a = guestScore += 3
-    document.getElementById("guest").innerHTML = a
+    document.getElementById("away").innerHTML = a
 }
