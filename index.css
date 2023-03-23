@@ -1,0 +1,42 @@
+@font-face {
+  font-family: digitalFont;
+  src: url(digital7.ttf);
+}
+body {
+    margin: 0;
+    text-align: center;
+    background: #18244c;
+    color: whitesmoke;
+}
+
+.main1 {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.bigger {
+    margin: 20px;
+    background: black;
+    color: darkorange;
+    /* height: 120px;
+    width: 200px; */
+    font-size: 100px;
+    border-radius: 10px;
+    font-family: digitalFont;
+    
+}
+.digits {
+    margin: 20px;
+    display: flex;
+    column-gap: 20px;   
+    font-family: digitalFont;
+}
+
+.num {
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    background: #18244c;
+    color: whitesmoke;
+    border-radius: 10px;
+}
